@@ -1,0 +1,30 @@
+body#discography{
+  .container {
+    width: 65%;
+
+    img {
+      width: 72%;
+    }
+  }
+
+  .album_title{
+    font-size: 1.4em;
+  }
+
+  h1 {
+    font-family: montserrat;
+  }
+
+  .content {
+    a {
+      text-decoration: none;
+      color: black;
+      cursor: pointer;
+
+      &:hover {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}

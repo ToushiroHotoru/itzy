@@ -1,0 +1,45 @@
+body{
+    height: 100%;
+    width: 100%;
+    min-height: calc(100vh - 150px);
+    background: url(../img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+body:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.349);
+  z-index: 2;
+}
+
+.container{
+    min-height: 95vh;
+    height: 100%;
+}
+
+.row{
+    z-index: 3;
+}
+
+nav{
+    z-index: 4;
+}
+
+.font-size{
+  font-size: 1.2em;
+}
+
+.nav-item{
+    a{
+        font-size: 1.3em;
+    }
+}

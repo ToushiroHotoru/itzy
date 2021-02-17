@@ -1,0 +1,41 @@
+body#profile {
+  .sad img {
+    transition: all 0.4s;
+    cursor: pointer;
+    box-shadow: 2px -2px 15px 0.2px black;
+  }
+
+  #ryujin, #chaeryong, #yuna, #lia{
+    display: none;
+  }
+
+  .chara {
+    cursor: pointer;
+    width: 100px;
+  }
+
+  .chara_name{
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+
+  a .text-center {
+    font-size: 1.4em;
+  }
+
+  a,
+  a:active,
+  a:hover {
+    text-decoration: none;
+    color: black;
+  }
+
+  .sad img:hover {
+    transform: scale(1.01);
+  }
+  @media screen and (max-width: 576px) {
+    .sad img {
+      width: 60%;
+    }
+  }
+}

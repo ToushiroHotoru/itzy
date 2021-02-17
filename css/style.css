@@ -1,0 +1,34 @@
+@import url(../css/albumItem.css);
+body#discography .container { width: 65%; }
+body#discography .container img { width: 72%; }
+body#discography .album_title { font-size: 1.4em; }
+body#discography h1 { font-family: montserrat; }
+body#discography .content a { text-decoration: none; color: black; cursor: pointer; }
+body#discography .content a:hover { text-decoration: none; color: black; }
+
+body#gallery .content { height: 100%; }
+
+body#notice .content .container { width: 80%; }
+body#notice .item { border-bottom: 1px solid black; min-height: 100px; height: 100%; display: flex; align-items: center; }
+body#notice .item:first-child { border-top: 2px solid black; }
+
+body#video #secVid iframe { max-height: 400px; display: none; }
+
+body#profile .sad img { transition: all 0.4s; cursor: pointer; box-shadow: 2px -2px 15px 0.2px black; }
+body#profile #ryujin, body#profile #chaeryong, body#profile #yuna, body#profile #lia { display: none; }
+body#profile .chara { cursor: pointer; width: 100px; }
+body#profile .chara_name { font-size: 1.4em; font-weight: bold; }
+body#profile a .text-center { font-size: 1.4em; }
+body#profile a, body#profile a:active, body#profile a:hover { text-decoration: none; color: black; }
+body#profile .sad img:hover { transform: scale(1.01); }
+@media screen and (max-width: 576px) { body#profile .sad img { width: 60%; } }
+
+body { display: flex; flex-direction: column; height: -webkit-fill-available; }
+
+.content { flex: 1 0 auto; display: flex; align-items: center; }
+
+footer { height: 100px; width: 100%; flex: 0 0 auto; }
+
+body { height: 100%; min-height: 100vh; }
+
+/*# sourceMappingURL=style.css.map */
